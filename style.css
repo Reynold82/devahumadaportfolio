@@ -50,7 +50,7 @@ p {
     padding-bottom: 1rem;
 }
 
-.stripe-container .slider-container {
+.stripe-container {
     display: flex;
 }
 
@@ -78,6 +78,7 @@ p {
 }
 
 .slider-container {
+    flex-shrink: 0;
     transform: translateX(0);
     animation: 5s infinite;
 }
