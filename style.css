@@ -1,6 +1,6 @@
 /* GENERALES */
 
-body, h1, h2, h3 {
+body, h2, h3 {
     margin: 0em;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -14,6 +14,14 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-weight: lighter;
 }
+
+/* TITULO */
+
+.title-neon {
+    color: #ffffff;
+    text-shadow: 0 0 5px greenyellow, 0 0 15px greenyellow, 0 0 30px greenyellow, 0 0 50px greenyellow;
+}
+
 
 /* BARRA DE NAVEGACION Y PRESENTACION */
 
