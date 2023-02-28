@@ -33,7 +33,7 @@ p {
 }
 
 .cover {
-    height: 400px;
+    height: 500px;
     color: hsl(95, 100%, 50%, 0.8);
     background-image: url("./img/rsz_tianyi-ma-wionhd_zyi4-unsplash.jpg");
     background-size: cover;
@@ -149,14 +149,10 @@ p {
     background-blend-mode: normal;
 }
 
-.product-stripe, .slider {
+.slider {
     overflow-x: scroll; /* manipula como se muestra el contenido que esta desbordando del contenedor padre */
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-.stripe-container {
-    display: flex;
 }
 
 .stripe-container .card {
@@ -253,6 +249,7 @@ footer a{
     font-size: 26px;
 }
 
+/* Avatares en aboutme.html */
 
 .avatar {
     width: 120px;

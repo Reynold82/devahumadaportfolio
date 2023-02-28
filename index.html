@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <!-- Font Awasome icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,12 +21,11 @@
         <title>Die_Ahumada_DEV</title>
     </head>
     <body>
-        <!-- Header -->
         <header>
             <!-- NavBar -->
             <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><\></a>
+                    <a class="navbar-brand" href="#" id="inicio"><\></a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -43,18 +43,18 @@
                                 <a
                                     class="nav-link active"
                                     aria-current="page"
-                                    href="/index.html"
+                                    href="/index.html onclick="seleccionar()""
                                     >Home</a
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#stripe">Conocimientos</a>
+                                <a class="nav-link" href="#conocimientos" onclick="seleccionar()">Conocimientos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#mapa">Ubicación</a>
+                                <a class="nav-link" href="#mapa" onclick="seleccionar()">Ubicación</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./aboutme.html">Acerca de</a>
+                                <a class="nav-link" href="./aboutme.html" onclick="seleccionar()">Acerca de</a>
                             </li>
                         </ul>
                     </div>
@@ -69,60 +69,65 @@
                 <button class="btn btn-dark">Conoceme</button>
             </div>
         </header>
-        <!-- Sections -->
         <!-- Conocimientos -->
         <section>
-            <!-- Card images -->
-            <div class="container mt-5 mb-5">
+            <div class="container mt-5 mb-5 neo">
+                <h2 class="mb-4">Conocimientos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quis quos. Ab eaque harum commodi alias quas ratione! Totam iste pariatur harum enim, nesciunt reprehenderit temporibus quisquam nemo itaque doloribus?</p>
                 <div class="row justify-content-between">
                     <div class="col-12 col-sm-6 col-lg-3 mt-2">
                         <div class="card">
-                            <div title="html logo" class="cover cover-small" style="background-image: url(./img/rsz_1jackson-sophat-wubnvdtsoic-unsplash.jpg);"></div>
+                            <div title="php logo" class="cover cover-small"  id="conocimientos" style="background-image: url(./img/ben-griffiths-gAe1pHGc6ms-unsplash.jpg);"></div>
                             
                             <div class="card-body">
-                                <h3 class="card-title">Conociendo HTML</h3>
+                                <h3 class="card-title">PHP</h3>
                                 <p class="card-text">
                                     Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Totam alias saepe vitae
                                     eos quis temporibus impedit fuga.
                                 </p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                <span class="badge text-bg-primary">PHP</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3 mt-2">
                         <div class="card">
-                            <div title="laptop and desktop" class="cover cover-small" style="background-image: url(./img/rsz_11james-harrison-vpoexr5wmr4-unsplash.jpg);"></div>
+                            <div title="react logo" class="cover cover-small" style="background-image: url(./img/lautaro-andreani-xkBaqlcqeb4-unsplash\ \(1\).jpg);"></div>
                             
                             <div class="card-body">
-                                <h3 class="card-title">
-                                    Hardware de desarrollo
-                                </h3>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Nobis obcaecati autem in
-                                    ducimus dolorem possimus pariatur itaque
-                                    qui. Laudantium, reiciendis.
+                                <h3 class="card-title">REACT</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quod est iste velit minima autem.
                                 </p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                <span class="badge text-bg-dark">REACT</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3 mt-2">
                         <div class="card">
-                            <div title="npm logo" class="cover cover-small" style="background-image: url(./img/rsz_paul-esch-laurent-ozmurwfhob4-unsplash.jpg);"></div>
+                            <div title="python logo" class="cover cover-small" style="background-image: url(./img/faisal-BI465ksrlWs-unsplash.jpg);"></div>
                             
                             <div class="card-body">
-                                <h3 class="card-title">Manejo de terminal</h3>
+                                <h3 class="card-title">PYTHON</h3>
                                 <p class="card-text">
                                     Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Necessitatibus corporis
                                     explicabo praesentium fugit eaque ullam
                                     soluta.
                                 </p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                <span class="badge text-bg-success">PYTHON</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mt-2">
+                        <div class="card">
+                            <div title="android logo" class="cover cover-small" style="background-image: url(./img/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg);"></div>
+                            
+                            <div class="card-body">
+                                <h3 class="card-title">ANDROID</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi alias harum minima. Quidem, fugiat molestiae.</p>
+                                <span class="badge text-bg-info">ANDROID</span>
                             </div>
                         </div>
                     </div>
@@ -131,7 +136,7 @@
         </section>
         <!-- Habilidades -->
         <div class="contenedor-skills" id="skills">
-            <h2>Habilidades</h2>
+            <h2 class="title-neon">Habilidades</h2>
 
             <div class="skill">
                 <div class="info">
@@ -170,53 +175,7 @@
                     </div>
             </div>
         </div>
-        
-        <!-- Mas sobre mi -->
-        <section>
-            <!-- Tira de lenguajes -->
-            <div class="container mt-5 mb-5" id="stripe">
-                <div class="product-stripe">
-                    <div class="stripe-container">
-                        <div class="card">
-                            <div title="html logo" class="cover cover-small" style="background-image: url(./img/ben-griffiths-gAe1pHGc6ms-unsplash.jpg);"></div>
-                            
-                            <div class="card-body">
-                                <h3 class="card-title">PHP</h3>
-                                <span class="badge text-bg-primary">PHP</span>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div title="html logo" class="cover cover-small" style="background-image: url(./img/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg);"></div>
-                            
-                            <div class="card-body">
-                                <h3 class="card-title">ANDROID</h3>
-                                <span class="badge text-bg-info">ANDROID</span>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div title="html logo" class="cover cover-small" style="background-image: url(./img/faisal-BI465ksrlWs-unsplash.jpg);"></div>
-                            
-                            <div class="card-body">
-                                <h3 class="card-title">PYTHON</h3>
-                                <span class="badge text-bg-success">PYTHON</span>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div title="html logo" class="cover cover-small" style="background-image: url(./img/lautaro-andreani-xkBaqlcqeb4-unsplash\ \(1\).jpg);"></div>
-                            
-                            <div class="card-body">
-                                <h3 class="card-title">REACT</h3>
-                                <span class="badge text-bg-dark">REACT</span>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- Consultas -->
         <section>
             <div class="container mt-5 mb-5">
@@ -225,9 +184,10 @@
                         <img src="./img/Open Doodles - Selfie.png" alt="man take a selfie">
                     </div>
                     <div class="col-12 col-sm-6">
-                        <h3>No tengas miedo en consultarme!</h3>
-                        <p>Mandame un correo preguntandome por mi trabajo o si quieres ofrecerme uno. Estoy abierto a propuestas!</p>
-                        <a href="https://goo.gl/maps/Fhi7Egwq2R2hPgRa9">Ir al mapa</a>
+                        <h3 class="mb-4">No tengas miedo en consultarme!</h3>
+                        <p>Mandame un correo preguntandome por mi trabajo o si quieres ofrecerme uno...estoy abierto a propuestas!</p>
+                        <a href="https://goo.gl/maps/Fhi7Egwq2R2hPgRa9">Aquí puedes encontrarme</a>
+                        
                     </div>
                 </div>
                 <form action="">
@@ -253,6 +213,9 @@
         </section>
 
         <footer>
+            <a href="#inicio">
+                <i class="fa-sharp fa-solid fa-circle-up"></i>
+            </a>
             <p>Todos los derechos reservados - 2023 </p>
             <div class="redes">
                 <a href=""><i class="fa-brands fa-youtube"></i></a>
